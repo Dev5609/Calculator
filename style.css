@@ -1,7 +1,7 @@
 .container {
     text-align: center;
     margin-top: 23px;
-    font-style: normal;
+    text-decoration: underline;
 }
 
 table {
@@ -10,27 +10,27 @@ table {
 
 input {
     border-radius: 21px;
-    border: 5px solid #244624;
+    border: 5px solid #244644;
     font-size: 34px;
     height: 65px;
-    width: 456px;
+    width: 305px;
 }
 
 button {
     border-radius: 20px;
     font-size: 40px;
-    background: #978fa0;
-    width: 102px;
-    height: 60px;
-    margin: 6px;
+    background: #b5b3b9;
+    width: 70px;
+    height: 65px;
+    margin: 2px;
     cursor: pointer;
 }
 
 .calculator {
     border: 4px solid #13695d;
     background-color: black;
-    padding: 23px;
-    border-radius: 50px;
+    padding: 14px;
+    border-radius: 35px;
     display: inline-block;
 }
 
@@ -39,5 +39,9 @@ h1 {
 }
 
 .calculator input {
-    text-align: end;
+    text-align: center;
+}
+
+body {
+    background: linear-gradient(to right, #f8e91551, #fac410d0);
 }
