@@ -24,6 +24,7 @@ button {
     height: 65px;
     margin: 2px;
     cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .calculator {
@@ -39,7 +40,7 @@ h1 {
 }
 
 .calculator input {
-    text-align: center;
+    text-align: right;
 }
 
 body {

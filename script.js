@@ -1,11 +1,11 @@
 let screen = document.getElementById('screen');
 buttons = document.querySelectorAll('button');
-let screenValue = '';
+let screenValue = "";
 for (item of buttons) {
     item.addEventListener('click', (e) => {
         buttonText = e.target.innerText;
-        console.log('Button text is ', buttonText);
-        if (buttonText == 'X') {
+        console.log('Button text is ', buttonText, ', working great!');
+        if (buttonText == 'x') {
             buttonText = '*';
             screenValue += buttonText;
             screen.value = screenValue;
